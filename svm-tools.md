@@ -1,9 +1,10 @@
 libsvm tutorial
 
 [livsvm tutorial](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
-
+```ruby
 model = svmtrain(training_label_vector, training_instance_matrix, [, 'libsvm_options']);
 [predicted_label, accuracy, decision_values/prob_estimates] = svmpredict(testing_label_vector, testing_instance_matrix, model,[, 'libsvm_options]);
+```
 
 Returned model structure
 [Parameters, nr_class, totalSV, rho, Label, ProbA, ProbB, nSV, sv_coef, SVs]
