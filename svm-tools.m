@@ -1,6 +1,6 @@
 libsvm tutorial
 
-https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+[livsvm tutorial](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
 
 model = svmtrain(training_label_vector, training_instance_matrix, [, 'libsvm_options']);
 [predicted_label, accuracy, decision_values/prob_estimates] = svmpredict(testing_label_vector, testing_instance_matrix, model,[, 'libsvm_options]);
